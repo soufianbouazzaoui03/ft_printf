@@ -6,14 +6,14 @@
 /*   By: soel-bou <soel-bou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 23:42:18 by soel-bou          #+#    #+#             */
-/*   Updated: 2023/11/22 21:53:34 by soel-bou         ###   ########.fr       */
+/*   Updated: 2023/11/23 00:20:06 by soel-bou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libftprintf.h"
 
-void    ft_putchar(char c, size_t *len)
+void	ft_putchar(char c, size_t *len)
 {
-    write (1, &c, 1);
-    (*len)++;
+	write (1, &c, 1);
+	(*len)++;
 }

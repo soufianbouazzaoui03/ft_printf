@@ -6,14 +6,14 @@
 /*   By: soel-bou <soel-bou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/22 21:57:36 by soel-bou          #+#    #+#             */
-/*   Updated: 2023/11/22 22:24:27 by soel-bou         ###   ########.fr       */
+/*   Updated: 2023/11/23 00:18:20 by soel-bou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libftprintf.h"
 
-void    ft_putptr(size_t ptr, size_t *len)
+void	ft_putptr(size_t ptr, size_t *len)
 {
-    ft_putstr("0x", len);
-    ft_puthex("0123456789abcdef", ptr, len);
+	ft_putstr("0x", len);
+	ft_puthex("0123456789abcdef", ptr, len);
 }
