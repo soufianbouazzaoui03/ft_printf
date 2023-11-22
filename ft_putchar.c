@@ -6,11 +6,11 @@
 /*   By: soel-bou <soel-bou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 23:42:18 by soel-bou          #+#    #+#             */
-/*   Updated: 2023/11/23 00:20:06 by soel-bou         ###   ########.fr       */
+/*   Updated: 2023/11/23 00:36:36 by soel-bou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 void	ft_putchar(char c, size_t *len)
 {

@@ -11,7 +11,7 @@ all : ${NAME}
 ${NAME} : ${OBJ}
 	@ar rc $@ ${OBJ}
 
-%.o : %.c libftprintf.h	
+%.o : %.c ft_printf.h	
 	cc -Wall -Wextra -Werror -c $< -o $@
 
 clean :

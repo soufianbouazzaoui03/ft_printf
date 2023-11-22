@@ -6,11 +6,11 @@
 /*   By: soel-bou <soel-bou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 20:12:34 by soel-bou          #+#    #+#             */
-/*   Updated: 2023/11/23 00:24:02 by soel-bou         ###   ########.fr       */
+/*   Updated: 2023/11/23 00:36:54 by soel-bou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 void	ft_format(char type, va_list *ap, size_t *len, int *i)
 {
